@@ -1,0 +1,3 @@
+newuser123:123qwer:developers
+adi123:adi1234:others
+aditya.rpsk:idkidkidk:student
