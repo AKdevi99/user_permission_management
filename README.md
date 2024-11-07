@@ -1,7 +1,3 @@
-Here's a comprehensive README that combines both sections, adding attractive buttons, tables, and a Postman guide, along with an acknowledgment section. 
-
----
-
 # User Permission Management System
 
 Welcome to the **User Permission Management System**! This system, built with **Express.js** and **Shell Scripting**, allows easy management of user permissions via a REST API interface. It facilitates user addition, modification, and deletion, making it useful for handling user data and permissions.
@@ -10,7 +6,7 @@ Welcome to the **User Permission Management System**! This system, built with **
 
 ## Quick Links
 
-<a href="https://github.com/AKdevi99/user-permission-management" style="text-decoration: none;">
+<a href="https://github.com/AKdevi99/user_permission_management" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Clone%20Repo-%23000000?style=for-the-badge&logo=github&logoColor=white" alt="Clone Repo">
 </a>
 <a href="#getting-started" style="text-decoration: none;">
@@ -28,8 +24,6 @@ Welcome to the **User Permission Management System**! This system, built with **
 - **Add, Modify, Delete Users**: Shell commands for managing user data stored in `users.txt`.
 - **User Group Management**: Update user groups via API calls.
 
-![Main Screen](#) <!-- Placeholder for screenshots -->
-
 ---
 
 ## Table of Contents
@@ -41,7 +35,6 @@ Welcome to the **User Permission Management System**! This system, built with **
 - [Folder Structure](#folder-structure)
 - [Screenshots](#screenshots)
 - [Testing with Postman](#testing-with-postman)
-- [Acknowledgment](#acknowledgment)
 - [License](#license)
 
 ---
@@ -65,12 +58,12 @@ PORT=3000
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/AKdevi99/user-permission-management.git
-cd user-permission-management
+git clone https://github.com/AKdevi99/user_permission_management.git
+cd user_permission_management
 npm install
 ```
 
-<a href="https://github.com/AKdevi99/user-permission-management/fork" style="text-decoration: none;">
+<a href="https://github.com/AKdevi99/user_permission_management/fork" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Fork%20Repo-%23000000?style=for-the-badge&logo=github&logoColor=white" alt="Fork Repo">
 </a>
 
@@ -135,7 +128,7 @@ Each script checks for existing entries and updates `users.txt`.
 ## Folder Structure
 
 ```plaintext
-user-permission-management/
+user_permission_management/
 ├── index.js                # Main server file
 ├── scripts/
 │   ├── add_user.sh         # Shell script to add user
